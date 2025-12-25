@@ -107,10 +107,10 @@
 
         User0 {
             bindings = <
-&kp ESC         &trans  &kp Q   &kp W   &kp E      &trans                      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans  &kp A   &kp S   &kp D      &kp F                       &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL       &trans  &kp Z   &kp X   &kp C      &kp B                       &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &kp ENTER  &mo 1   &kp SPACE    &to 0  &trans  &trans  &trans  &trans
+&kp ESC         &kp NUMBER_1  &kp Q  &kp W  &kp E      &kp R                      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp NUMBER_2  &kp A  &kp S  &kp D      &kp F                      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL       &kp NUMBER_3  &kp Z  &kp X  &kp C      &kp B                      &trans  &trans  &trans  &trans  &trans  &trans
+                              &kp H  &kp G  &kp ENTER  &mo 1  &kp SPACE    &to 0  &trans  &trans  &trans  &trans
             >;
 
             display-name = "User0";
